@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SASS</title>
+        <meta name="description" content="SASS Project">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500&family=Montserrat:wght@100;200;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="default.css">
+        <link rel="stylesheet" href="styles.css">
+        <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    </head>
+    <body>
+        <nav id="topNav" class="navbar nav">
+            <div class="container topSection">  
+                <a class="navbar-brand" href="index.html"><img src="https://i.pinimg.com/originals/92/1c/c7/921cc7b0a1f51a7f46ea06f1ede3ccf5.jpg" alt="project logo"></a>
+                <div class="header">
+                    <div class="left flex-column">
+                        <div class="greeting">
+                            <img src="" alt="">
+                            <p>Hi, <span>Zhiheng</span></p>
+                        </div>
+                        <div>
+                            <ul class="navbar-nav">
+                                <li class="nav-link">
+                                    <a href="#topSection">My Accounts<span><i class="fa-sharp fa-solid fa-play fa-rotate-90"></i></span> </a>
+                                    
+                                </li>
+                                <li class="nav-link">
+                                    <a href="#KBS">Products<span><i class="fa-sharp fa-solid fa-play fa-rotate-90"></i></span></a> 
+                                </li>
+                                <li class="nav-link">
+                                    <a href="#banner">Help & More<span><i class="fa-sharp fa-solid fa-play fa-rotate-90"></i></span> </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right flex-column">
+                        <div>
+                            <span>Open Ancount</span>
+                            <span>|</span>
+                            <span>Sign Out</span>
+                        </div>
+                        <div class="search-container">
+                            <input type="text" class="search-input" placeholder="search">
+                            <i class="fas fa-search search-icon"></i>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="categories container flex-column">
+            <div class="first">
+                <span class="category">My Accounts<i class="fa-sharp fa-solid fa-play fa-rotate-90"></i></span>
+                <span class="category">Transfers & Deposits<i class="fa-sharp fa-solid fa-play fa-rotate-90"></i></span>
+                <span class="category">Payments<i class="fa-sharp fa-solid fa-play fa-rotate-90"></i></span>
+                <span class="category">Statements<i class="fa-sharp fa-solid fa-play fa-rotate-90"></i></span>
+                <span class="category">My Info<i class="fa-sharp fa-solid fa-play fa-rotate-90"></i></span>
+                <span class="category">Alerts & Massages<i class="fa-sharp fa-solid fa-play fa-rotate-90"></i></span>
+                <hr>
+            </div>
+            <div class="second">
+                <span class="category">Summary</span>
+                <span class="category">External Accounts</span>
+                <span class="category">Automatic Savings Plan</span>
+                <span class="category">Refer a Friend</span>
+                <span class="category">My Savings Goals</span>
+                <hr>
+            </div>
+        </section>
+
+        <section class="activities container">
+            <div class="container">
+                <h2>Selected Account</h2>
+                <select>
+                    <option value="option1" selected>***1119 - Capital Checking (Available $29,326.02)</option>
+                </select>
+            </div>
+            <div class="summary">
+                <div class="access">
+                    <p>Your account activities</p>
+                    <span><i class="fa-solid fa-print"></i>print</span>
+                    <span><i class="fa-solid fa-magnifying-glass"></i>search</span>
+                    <span><i class="fa-sharp fa-regular fa-file-excel"></i>excel</span>
+                </div>
+                <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Description</th>
+                                <th>Debit</th>
+                                <th>Credit</th>
+                                <th>Balance</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>08/07/2023</td>
+                                <td>ALDI 60077 EDISON</td>
+                                <td>$19.13</td>
+                                <td></td>
+                                <td>$29,326.02</td>
+                            </tr>
+                            <tr>
+                                <td>08/06/2023</td>
+                                <td>WITHDRAWALS</td>
+                                <td>$2000.00</td>
+                                <td></td>
+                                <td>$29,345.15</td>
+                            </tr>
+                            <tr>
+                                <td>08/06/2023</td>
+                                <td>NNT NJMVC EDISON 0 EDISON</td>
+                                <td>$165.50</td>
+                                <td></td>
+                                <td>$31,345.15</td>
+                            </tr>
+                            <tr>
+                                <td>08/04/2023</td>
+                                <td>FUEL ONE</td>
+                                <td>$57.33</td>
+                                <td></td>
+                                <td>$31,510.65</td>
+                            </tr>
+                            <tr>
+                                <td>08/04/2023</td>
+                                <td>159950 MERCURY S DIR DEP</td>
+                                <td></td>
+                                <td>$2286.00</td>
+                                <td>$31,567.98</td>
+                            </tr>
+                            <tr>
+                                <td>08/03/2023</td>
+                                <td>NELNET STUDENT LOAN PAYMENT</td>
+                                <td>$3000.00</td>
+                                <td></td>
+                                <td>$29,281.98</td>
+                            </tr>
+                            <tr>
+                                <td>07/29/2023</td>
+                                <td>199 RANCH #1601 EDISON</td>
+                                <td>$29.61</td>
+                                <td></td>
+                                <td>$32,281.98</td>
+                            </tr>
+                            <tr>
+                                <td>07/21/2023</td>
+                                <td>DELTA EDISON</td>
+                                <td>$54.45</td>
+                                <td></td>
+                                <td>$32,311.59</td>
+                            </tr>
+                            <tr>
+                                <td>07/21/2023</td>
+                                <td>ALDI 60077 EDISON</td>
+                                <td>$27.28</td>
+                                <td></td>
+                                <td>$32,366.04</td>
+                            </tr>
+                            <tr>
+                                <td>07/21/2023</td>
+                                <td>159950 MERCURY S DIR DEP</td>
+                                <td></td>
+                                <td>$2286.00</td>
+                                <td>$32,393.32</td>
+                            </tr>
+                            <tr>
+                                <td>07/15/2023</td>
+                                <td>ALDI 60077 EDISON</td>
+                                <td>$24.22</td>
+                                <td></td>
+                                <td>$30,107.32</td>
+                            </tr>
+                            <tr>
+                                <td>07/14/2023</td>
+                                <td>199 RANCH #1601 EDISON</td>
+                                <td>$15.60</td>
+                                <td></td>
+                                <td>$30131.54</td>
+                            </tr>
+                            <tr>
+                                <td>07/07/2023</td>
+                                <td>159950 MERCURY S DIR DEP</td>
+                                <td></td>
+                                <td>$2286.00</td>
+                                <td>$30147.14</td>
+                            </tr>
+                            <tr>
+                                <td>07/06/2023</td>
+                                <td>DELTA EDISON</td>
+                                <td>$56.85</td>
+                                <td></td>
+                                <td>$27,861.14</td>
+                            </tr>
+                            <tr>
+                                <td>07/03/2023</td>
+                                <td>NELNET STUDENT LOAN PAYMENT</td>
+                                <td>$3000.00</td>
+                                <td></td>
+                                <td>$27,917.99</td>
+                            </tr>
+                            <tr>
+                                <td>07/02/2023</td>
+                                <td>ALDI 60077 EDISON</td>
+                                <td>$21.15</td>
+                                <td></td>
+                                <td>$30,917.99</td>
+                            </tr>
+                            <tr>
+                                <td>06/30/2023</td>
+                                <td>159950 MERCURY S DIR DEP</td>
+                                <td></td>
+                                <td>$7047.18</td>
+                                <td>$30,939.14</td>
+                            </tr>
+                            <tr>
+                                <td>06/28/2023</td>
+                                <td>Zelle To BEIHONG FENG 888-7</td>
+                                <td>$1,000.00</td>
+                                <td></td>
+                                <td>$23,891.96</td>
+                            </tr>
+                            <tr>
+                                <td>06/26/2023</td>
+                                <td>DELTA EDISON</td>
+                                <td>$57.02</td>
+                                <td></td>
+                                <td>$24,891.96</td>
+                            </tr>
+                            <tr>
+                                <td>06/26/2023</td>
+                                <td>ALDI 60077 EDISON</td>
+                                <td>$25.19</td>
+                                <td></td>
+                                <td>$24,948.98</td>
+                            </tr>
+                            <tr>
+                                <td>06/23/2023</td>
+                                <td>159950 MERCURY S DIR DEP</td>
+                                <td></td>
+                                <td>$2286.00</td>
+                                <td>$24,974.17</td>
+                            </tr>
+                            <tr>
+                                <td>06/21/2023</td>
+                                <td>LOWE'S #692 1345 CEN PISCAT</td>
+                                <td>$42.61</td>
+                                <td></td>
+                                <td>$22,688.17</td>
+                            </tr>
+                            <tr>
+                                <td>06/16/2023</td>
+                                <td>159950 MERCURY S DIR DEP</td>
+                                <td></td>
+                                <td>$10,000.00</td>
+                                <td>$22,730.78</td>
+                            </tr>
+                            <tr>
+                                <td>06/15/2023</td>
+                                <td>199 RANCH #1601 EDISON</td>
+                                <td>$12.38</td>
+                                <td></td>
+                                <td>$12,730.78</td>
+                            </tr>
+                            <tr>
+                                <td>06/15/2023</td>
+                                <td>ALDI 60077 EDISON</td>
+                                <td>$42.84</td>
+                                <td></td>
+                                <td>$12,743.16</td>
+                            </tr>
+                            <tr>
+                                <td>06/09/2023</td>
+                                <td>159950 MERCURY S DIR DEP</td>
+                                <td></td>
+                                <td>$2286.00</td>
+                                <td>$12,786.00</td>
+                            </tr>
+                            <tr>
+                                <td>06/02/2023</td>
+                                <td>159950 MERCURY S DIR DEP</td>
+                                <td></td>
+                                <td>$10000.00</td>
+                                <td>$10,500.00</td>
+                            </tr>
+                            <tr>
+                                <td>05/27/2023</td>
+                                <td>DDA DEPOSIT</td>
+                                <td></td>
+                                <td>$500.00</td>
+                                <td>$500.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <script src="https://kit.fontawesome.com/184aacefe0.js" crossorigin="anonymous"></script>
+    </body>
+</html>
